@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-import add_0 as ad0
+import add_0
 
 if __name__ == "__main__":
     a = 1
     b = 2
-    result = ad0.add(a, b)
+    result = add_0.add(a, b)
     print("Result: {}".format(result))
+
