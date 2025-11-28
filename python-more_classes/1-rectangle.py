@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class."""
+"""This module defines a Rectangle class with width and height attributes.
+
+The class includes getter and setter methods for width and height with
+validation to ensure they are integers greater than or equal to 0.
+"""
 
 
 class Rectangle:
@@ -37,4 +41,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
