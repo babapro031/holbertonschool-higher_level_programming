@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Define a Rectangle class with width, 
+"""Define a Rectangle class with width,
 height, print_symbol, and comparison."""
 
 
